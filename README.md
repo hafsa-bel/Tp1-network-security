@@ -55,7 +55,7 @@ The images show static routing applied to our routers.
 
 - ACLs are common in routers or firewalls, but they can also configure them in any device that runs in the network, from hosts, network devices, servers, etc.
 
-    *Why using an ACL?*
+*Why using an ACL?*
  
 The main idea of using an ACL is to provide security to your network. Without it, any traffic is either allowed to enter or exit, making it more vulnerable to unwanted and dangerous traffic.
 
@@ -73,7 +73,7 @@ So for example, instead of blocking only one host in the engineering team, you c
 
 If the Engineer from host C, needs to access a web server located in the Financial network, you can only allow port 80, and block everything else.
 
-    *Where to place an ACL ?*
+<ins>*Where to place an ACL ?*</ins>
 
 The devices that are facing unknown external networks, such as the Internet, need to have a way to filter traffic. So, one of the best places to configure an ACL is on the edge routers.
 
