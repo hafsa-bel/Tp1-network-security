@@ -58,11 +58,33 @@ The images show static routing applied to our routers.
    *Why using an ACL?*
  
 The main idea of using an ACL is to provide security to your network. Without it, any traffic is either allowed to enter or exit, making it more vulnerable to unwanted and dangerous traffic.
+
 To improve security with an ACL you can, for example, deny specific routing updates or provide traffic flow control.
+
 As shown in the picture below, the routing device has an ACL that is denying access to host C into the Financial network, and at the same time, it is allowing access to host D.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73228919/222972088-4045f7e0-d9d7-48d5-bca0-7b045d1aabe1.jpeg">
+</p>
+
+With an ACL you can filter packets for a single or group of IP address or different protocols, such as TCP or UDP.
+
+So for example, instead of blocking only one host in the engineering team, you can deny access to the entire network and only allow one. Or you can also restrict the access to host C.
+
+If the Engineer from host C, needs to access a web server located in the Financial network, you can only allow port 80, and block everything else.
+
+   *Where to place an ACL?*
+
+The devices that are facing unknown external networks, such as the Internet, need to have a way to filter traffic. So, one of the best places to configure an ACL is on the edge routers.
+
+A routing device with an ACL can be placed facing the Internet and connecting the DMZ (De-Militarized Zone), which is a buffer zone that divides the public Internet and the private network.
+
+The DMZ is reserved for servers that need access from the outside, such as Web Servers, app servers, DNS servers, VPNs, etc.
+
+As shown in the picture below, the design shows a DMZ divided by two devices, one that separates the trusted zone from the DMZ and another that separates it with the Internet (public network).
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73228919/222972241-2c19f32f-b1eb-4973-8fa6-9dfb3349fd61.jpeg">
 </p>
 
 
