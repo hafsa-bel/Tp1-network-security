@@ -43,17 +43,17 @@ The images show static routing applied to our routers.
 
    *What is an ACL?*
    
-Access Control Lists “ACLs” are network traffic filters that can control incoming or outgoing traffic.
+- Access Control Lists “ACLs” are network traffic filters that can control incoming or outgoing traffic.
 
-ACLs work on a set of rules that define how to forward or block a packet at the router’s interface.
+- ACLs work on a set of rules that define how to forward or block a packet at the router’s interface.
 
-An ACL is the same as a Stateless Firewall, which only restricts, blocks, or allows the packets that are flowing from source to destination.
+- An ACL is the same as a Stateless Firewall, which only restricts, blocks, or allows the packets that are flowing from source to destination.
 
-When you define an ACL on a routing device for a specific interface, all the traffic flowing through will be compared with the ACL statement which will either block it or allow it.
+- When you define an ACL on a routing device for a specific interface, all the traffic flowing through will be compared with the ACL statement which will either block it or allow it.
 
-The criteria for defining the ACL rules could be the source, the destination, a specific protocol, or more information.
+- The criteria for defining the ACL rules could be the source, the destination, a specific protocol, or more information.
 
-ACLs are common in routers or firewalls, but they can also configure them in any device that runs in the network, from hosts, network devices, servers, etc.
+- ACLs are common in routers or firewalls, but they can also configure them in any device that runs in the network, from hosts, network devices, servers, etc.
 
 
 
