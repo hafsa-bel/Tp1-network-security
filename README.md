@@ -41,7 +41,7 @@ The images show static routing applied to our routers.
 
 # ACL:
 
-   *What is an ACL?*
+ <ins>*What is an ACL?*</ins>
    
 - Access Control Lists “ACLs” are network traffic filters that can control incoming or outgoing traffic.
 
@@ -55,7 +55,7 @@ The images show static routing applied to our routers.
 
 - ACLs are common in routers or firewalls, but they can also configure them in any device that runs in the network, from hosts, network devices, servers, etc.
 
-*Why using an ACL?*
+<ins>*Why using an ACL?*</ins>
  
 The main idea of using an ACL is to provide security to your network. Without it, any traffic is either allowed to enter or exit, making it more vulnerable to unwanted and dangerous traffic.
 
