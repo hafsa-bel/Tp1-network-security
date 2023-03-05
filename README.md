@@ -2,11 +2,11 @@
 
 # Introduction : 
 
-In the computer networking world, an ACL is one of the most fundamental components of security.
+  In the computer networking world, an **ACL** is one of the most fundamental components of security.
 An Access Control Lists **ACL** is a function that watches incoming and outgoing traffic and compares it with a set of defined statements.
 In this practical exercise, we will be working with access lists to configure network security policies. We will learn how to create, modify, and apply access lists to routers and switches, and how to use access lists to filter traffic based on specific requirements.
 
-But before this let's configure our network schema.
+  But before this let's configure our network schema.
 
 ## Schema :
 
