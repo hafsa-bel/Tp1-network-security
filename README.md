@@ -55,6 +55,16 @@ The images show static routing applied to our routers.
 
 - ACLs are common in routers or firewalls, but they can also configure them in any device that runs in the network, from hosts, network devices, servers, etc.
 
+   *Why using an ACL?*
+ 
+The main idea of using an ACL is to provide security to your network. Without it, any traffic is either allowed to enter or exit, making it more vulnerable to unwanted and dangerous traffic.
+To improve security with an ACL you can, for example, deny specific routing updates or provide traffic flow control.
+As shown in the picture below, the routing device has an ACL that is denying access to host C into the Financial network, and at the same time, it is allowing access to host D.
+
+<p align="center">
+  <img width="500" src="https://user-images.githubusercontent.com/73228919/222972088-4045f7e0-d9d7-48d5-bca0-7b045d1aabe1.jpeg">
+</p>
+
 
 
 
