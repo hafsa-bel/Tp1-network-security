@@ -87,6 +87,7 @@ As shown in the picture below, the design shows a DMZ divided by two devices, on
   <img src="https://user-images.githubusercontent.com/73228919/222972241-2c19f32f-b1eb-4973-8fa6-9dfb3349fd61.jpeg">
 </p>
 
+<ins>*How to implement ACLs in our routers?*</ins>
 
 
 
