@@ -73,7 +73,7 @@ So for example, instead of blocking only one host in the engineering team, you c
 
 If the Engineer from host C, needs to access a web server located in the Financial network, you can only allow port 80, and block everything else.
 
-   *Where to place an ACL?*
+   *Where to place an ACL ?*
 
 The devices that are facing unknown external networks, such as the Internet, need to have a way to filter traffic. So, one of the best places to configure an ACL is on the edge routers.
 
