@@ -117,6 +117,17 @@ In this question we're going to use standard ACL.
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223752420-e0f4a169-2332-4cdc-8499-3fd246c83145.png">
 </p>
 
+As we can see we cannot send packets from **200.4.1.3** to **200.4.3.0**
+
+&emsp; Here's the ip address of this machine: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; We're going to check with pinging: 
+
+<p align="center">
+  <img width="500" src="https://user-images.githubusercontent.com/73228919/223756354-34740439-a16a-4f34-ac41-1459903b2be3.png">
+  <img width="500" src="https://user-images.githubusercontent.com/73228919/223756379-a1e256c6-8d6c-4bd6-834e-8edae5724c84.png">
+</p>
+
+As we can see we can send packets from **200.4.1.2** to **200.4.3.0**
+
 
 
 
