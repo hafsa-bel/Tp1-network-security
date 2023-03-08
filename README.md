@@ -128,6 +128,17 @@ As we can see we cannot send packets from **200.4.1.3** to **200.4.3.0**
 
 As we can see we can send packets from **200.4.1.2** to **200.4.3.0**
 
+***Question 2 :***
+
+In this question we're going to use extended ACL to filter packets based on the destination address. Standard ACLs do not allow specifying a range of addresses for the destination; they only allow filtering on a specific IP address or subnet.
+
+Therefore, the extended ACL is used to filter packets based on criteria such as source IP address, destination IP address, protocol, port number, etc. In this specific case, we need to filter packets that have a destination address in two different networks, which requires the use of an extended ACL.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73228919/223758258-2154889b-0981-42fc-89f5-fc8b3ef010f5.png">
+</p>
+
+
 
 
 
