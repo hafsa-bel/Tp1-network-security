@@ -94,6 +94,21 @@ As shown in the picture below, the design shows a DMZ divided by two devices, on
 
 <ins>*How to implement ACLs in our routers?*</ins>
 
+We have **4** questions in this practical course :
+1) Allow packets sent from the machine 200.4.1.2 and deny packets from the machine 200.4.1.3.
+2) Deny packets coming from the machine 200.4.3.3 and going to the networks 200.4.2.0 and 200.4.1.0.
+3) Deny packets originating from the network 200.4.4.0 and going to the network 200.4.3.0.
+3) Deny pings (ICMP) coming from the network 200.4.2.0 and going to 200.4.1.0, and only allow pings from the machine 200.4.2.3.
+
+### Answers:
+
+***Question 1 :***
+
+In this question we're going to use standard ACL.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73228919/223748393-aa3c3743-2562-4b9a-b89b-b3953be0910e.png">
+</p>
 
 
 
