@@ -38,8 +38,8 @@ Then we're going to configure routers.
 
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/222971632-07f37395-010f-4fe4-afbf-1ff8029bcb7e.png">
-  <img width="500" src="https://user-images.githubusercontent.com/73228919/222971633-59da793b-cebe-46dc-8bc8-24f043d96aef.png">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/222971634-1f0c0522-8c22-49d9-b743-aa7ee79bc21c.png">
+  <img width="500" src="https://user-images.githubusercontent.com/73228919/222971633-59da793b-cebe-46dc-8bc8-24f043d96aef.png">
 </p>
 
 The images show static routing applied to our routers.
@@ -111,17 +111,20 @@ In this question we're going to use standard ACL.
 </p>
 
 &emsp; Here's the ip address of this machine:
+
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223752443-744fa24a-1b9a-4f27-908b-977def2a5930.png">
 </p>
+
  We're going to check with pinging: 
+ 
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223752420-e0f4a169-2332-4cdc-8499-3fd246c83145.png">
 </p>
 
 As we can see we cannot send packets from **200.4.1.3** to **200.4.3.0**
 
-&emsp; Here's the ip address of this machine: We're going to check with pinging: 
+&emsp; Here's the ip address of this machine: 
 
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223756354-34740439-a16a-4f34-ac41-1459903b2be3.png">
@@ -146,6 +149,7 @@ Therefore, the extended ACL is used to filter packets based on criteria such as 
 </p>
 
 &emsp; Here's the ip address of this machine: 
+
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223761003-435121ab-1c67-45f1-91c1-e0dbf3ee5377.png">
 </p>
@@ -156,7 +160,9 @@ We're going to check with pinging:
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223759784-cae04056-af43-4150-af93-798b7183d318.png">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223759847-69b22fa5-e3e7-4311-8ad7-883e0ef14b6d.png">
 </p>
+
 As we can see we cannot send packets from **200.4.3.3** to **200.4.1.0** and **200.4.2.0**
+
 
 ***Question 3 :***
 
