@@ -192,13 +192,6 @@ Here's the ip address of the machine **200.4.2.3** in the network **200.4.2.0** 
 
 As we can see we can ping from the machine **200.4.2.3** the network **200.4.1.0**
 
-Here's the ip address of the machine **200.4.2.3** in the network **200.4.2.0** : &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; We're going to check with pinging:
-
-<p align="center">
-  <img width="500" src="https://user-images.githubusercontent.com/73228919/223766700-d9104457-201a-4ed5-9b79-9fc9ca2f4a75.png">
-  <img width="500" src="https://user-images.githubusercontent.com/73228919/223766812-66b0080a-d09b-4049-8314-eb6137417f5f.png">
-</p>
-
 But in the same network from the machine **200.4.2.2**
 
 Here's the ip address of the machine **200.4.2.2** in the network **200.4.2.0** : &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; We're going to check with pinging:
@@ -209,6 +202,7 @@ Here's the ip address of the machine **200.4.2.2** in the network **200.4.2.0** 
 </p>
 
 As we can see we cannot ping from the machine in the same network as **200.4.2.3**
+
 
 
 
