@@ -107,8 +107,22 @@ We have **4** questions in this practical course :
 In this question we're going to use standard ACL.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/73228919/223748393-aa3c3743-2562-4b9a-b89b-b3953be0910e.png">
+  <img src="https://user-images.githubusercontent.com/73228919/223749334-b3dd54ce-9d69-45ed-ad2d-29850811ff54.png">
 </p>
+
+We're going to check with pinging: 
+And here's the ip address of this machine:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73228919/223752443-744fa24a-1b9a-4f27-908b-977def2a5930.png">
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73228919/223752420-e0f4a169-2332-4cdc-8499-3fd246c83145.png">
+</p>
+
+
+
 
 
 
