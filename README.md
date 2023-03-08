@@ -155,7 +155,7 @@ In this question we're going to use extended ACL for the same reason of the ques
   <img src="https://user-images.githubusercontent.com/73228919/223762234-dbafa670-6e54-479c-9450-0274ac3318cc.png">
 </p>
 
-&emsp; Here's the ip address of the first machine in the network **200.4.4.0** : &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; We're going to check with pinging:
+Here's the ip address of the first machine in the network **200.4.4.0** : &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; We're going to check with pinging:
 
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223763427-51d2eff3-5301-47c0-aaeb-a7f6d1ac777a.png">
@@ -166,7 +166,7 @@ As we can see from the machine **200.4.4.2** we canno't send packets to the netw
 
 No let's try with the second machine.
 
-&emsp; Here's the ip address of the second machine in the network **200.4.4.0** : &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; We're going to check with pinging:
+Here's the ip address of the second machine in the network **200.4.4.0** : &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; We're going to check with pinging:
 
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223763580-a1ee74f5-7107-4cd8-9db6-3ee3b43b65e2.png">
