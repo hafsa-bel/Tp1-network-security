@@ -138,6 +138,14 @@ Therefore, the extended ACL is used to filter packets based on criteria such as 
   <img src="https://user-images.githubusercontent.com/73228919/223758258-2154889b-0981-42fc-89f5-fc8b3ef010f5.png">
 </p>
 
+&emsp; Here's the ip address of this machine: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; We're going to check with pinging: 
+<p align="center">
+  <img width="500" src="https://user-images.githubusercontent.com/73228919/223761003-435121ab-1c67-45f1-91c1-e0dbf3ee5377.png">
+  <img width="500" src="https://user-images.githubusercontent.com/73228919/223759784-cae04056-af43-4150-af93-798b7183d318.png">
+  <img width="500" src="https://user-images.githubusercontent.com/73228919/223759847-69b22fa5-e3e7-4311-8ad7-883e0ef14b6d.png">
+</p>
+
+
 
 
 
