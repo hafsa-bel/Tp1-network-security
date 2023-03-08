@@ -175,7 +175,40 @@ Here's the ip address of the second machine in the network **200.4.4.0** : &emsp
 
 As we can see even from the machine **200.4.4.3** we canno't send packets to the network **200.4.3.0**
 
+***Question 4 :***
 
+In this question we're going to use extended ACL because we specified the protocol "ICMP".
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73228919/223765876-898aa1f1-32de-450d-91d9-09506ee8d386.png">
+</p>
+
+Here's the ip address of the machine **200.4.2.3** in the network **200.4.2.0** : &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; We're going to check with pinging:
+
+<p align="center">
+  <img width="500" src="https://user-images.githubusercontent.com/73228919/223766700-d9104457-201a-4ed5-9b79-9fc9ca2f4a75.png">
+  <img width="500" src="https://user-images.githubusercontent.com/73228919/223766812-66b0080a-d09b-4049-8314-eb6137417f5f.png">
+</p>
+
+As we can see we can ping from the machine **200.4.2.3** the network **200.4.1.0**
+
+Here's the ip address of the machine **200.4.2.3** in the network **200.4.2.0** : &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; We're going to check with pinging:
+
+<p align="center">
+  <img width="500" src="https://user-images.githubusercontent.com/73228919/223766700-d9104457-201a-4ed5-9b79-9fc9ca2f4a75.png">
+  <img width="500" src="https://user-images.githubusercontent.com/73228919/223766812-66b0080a-d09b-4049-8314-eb6137417f5f.png">
+</p>
+
+But in the same network from the machine **200.4.2.2**
+
+Here's the ip address of the machine **200.4.2.2** in the network **200.4.2.0** : &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; We're going to check with pinging:
+
+<p align="center">
+  <img width="500" src="https://user-images.githubusercontent.com/73228919/223767678-6c58770c-a91a-4596-a925-7fa330e7ecd7.png">
+  <img width="500" src="https://user-images.githubusercontent.com/73228919/223767785-c2a884d5-9c63-4791-8a14-07ecdb4fa8f6.png">
+</p>
+
+As we can see we cannot ping from the machine in the same network as **200.4.2.3**
 
 
 
