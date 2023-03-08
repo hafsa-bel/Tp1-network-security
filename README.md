@@ -110,7 +110,7 @@ In this question we're going to use standard ACL.
   <img src="https://user-images.githubusercontent.com/73228919/223749334-b3dd54ce-9d69-45ed-ad2d-29850811ff54.png">
 </p>
 
-And here's the ip address of this machine:<space><space>*<space> We're going to check with pinging: 
+And here's the ip address of this machine: &emsp; We're going to check with pinging: 
 
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223752443-744fa24a-1b9a-4f27-908b-977def2a5930.png">
