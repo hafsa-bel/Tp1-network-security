@@ -145,6 +145,44 @@ Therefore, the extended ACL is used to filter packets based on criteria such as 
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223759847-69b22fa5-e3e7-4311-8ad7-883e0ef14b6d.png">
 </p>
 
+As we can see we cannot send packets from **200.4.3.3** to **200.4.1.0** and **200.4.2.0**
+
+***Question 3 :***
+
+In this question we're going to use extended ACL for the same reason of the question 2.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73228919/223762234-dbafa670-6e54-479c-9450-0274ac3318cc.png">
+</p>
+
+&emsp; Here's the ip address of the first machine in the network **200.4.4.0** : &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; We're going to check with pinging:
+
+<p align="center">
+  <img width="500" src="https://user-images.githubusercontent.com/73228919/223763427-51d2eff3-5301-47c0-aaeb-a7f6d1ac777a.png">
+  <img width="500" src="https://user-images.githubusercontent.com/73228919/223763132-52c39569-fa8c-4f65-bbd2-ed1c9cca94dd.png">
+</p>
+
+As we can see from the machine **200.4.4.2** we canno't send packets to the network **200.4.3.0**
+
+No let's try with the second machine.
+
+&emsp; Here's the ip address of the second machine in the network **200.4.4.0** : &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; We're going to check with pinging:
+
+<p align="center">
+  <img width="500" src="https://user-images.githubusercontent.com/73228919/223763580-a1ee74f5-7107-4cd8-9db6-3ee3b43b65e2.png">
+  <img width="500" src="https://user-images.githubusercontent.com/73228919/223763020-6a246cd0-6189-46f6-8abe-40d0966200c7.png">
+</p>
+
+As we can see even from the machine **200.4.4.3** we canno't send packets to the network **200.4.3.0**
+
+
+
+
+
+
+
+
+
 
 
 
