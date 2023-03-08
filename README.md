@@ -29,6 +29,11 @@ First of all we're going to configure the PCs manually.
   <img width="500" src="https://user-images.githubusercontent.com/73228919/222968691-5312cb94-f4ad-4996-8946-f45b754cbf05.png">
 </p>
 
+- *PC8* (**200.4.1.2**) and *PC9* (**200.4.1.3**) are in the same network **200.4.1.0**
+- *PC10* (**200.4.2.2**) and *PC11* (**200.4.2.3**) are in the same network **200.4.2.0**
+- *PC0* (**200.4.3.2**) and *PC14* (**200.4.3.3**) are in the same network **200.4.3.0**
+- *PC12* (**200.4.4.2**) and *PC13* (**200.4.4.3**) are in the same network **200.4.4.0**
+
 Then we're going to configure routers.
 
 <p align="center">
