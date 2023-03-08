@@ -110,19 +110,26 @@ In this question we're going to use standard ACL.
   <img src="https://user-images.githubusercontent.com/73228919/223749334-b3dd54ce-9d69-45ed-ad2d-29850811ff54.png">
 </p>
 
-&emsp; Here's the ip address of this machine: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; We're going to check with pinging: 
-
+&emsp; Here's the ip address of this machine:
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223752443-744fa24a-1b9a-4f27-908b-977def2a5930.png">
+</p>
+ We're going to check with pinging: 
+<p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223752420-e0f4a169-2332-4cdc-8499-3fd246c83145.png">
 </p>
 
 As we can see we cannot send packets from **200.4.1.3** to **200.4.3.0**
 
-&emsp; Here's the ip address of this machine: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; We're going to check with pinging: 
+&emsp; Here's the ip address of this machine: We're going to check with pinging: 
 
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223756354-34740439-a16a-4f34-ac41-1459903b2be3.png">
+</p>
+
+We're going to check with pinging:
+
+<p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223756379-a1e256c6-8d6c-4bd6-834e-8edae5724c84.png">
 </p>
 
@@ -138,13 +145,17 @@ Therefore, the extended ACL is used to filter packets based on criteria such as 
   <img src="https://user-images.githubusercontent.com/73228919/223758258-2154889b-0981-42fc-89f5-fc8b3ef010f5.png">
 </p>
 
-&emsp; Here's the ip address of this machine: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; We're going to check with pinging: 
+&emsp; Here's the ip address of this machine: 
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223761003-435121ab-1c67-45f1-91c1-e0dbf3ee5377.png">
+</p>
+
+We're going to check with pinging: 
+
+<p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223759784-cae04056-af43-4150-af93-798b7183d318.png">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223759847-69b22fa5-e3e7-4311-8ad7-883e0ef14b6d.png">
 </p>
-
 As we can see we cannot send packets from **200.4.3.3** to **200.4.1.0** and **200.4.2.0**
 
 ***Question 3 :***
@@ -155,10 +166,15 @@ In this question we're going to use extended ACL for the same reason of the ques
   <img src="https://user-images.githubusercontent.com/73228919/223762234-dbafa670-6e54-479c-9450-0274ac3318cc.png">
 </p>
 
-Here's the ip address of the first machine in the network **200.4.4.0** : &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; We're going to check with pinging:
+Here's the ip address of the first machine in the network **200.4.4.0** :
 
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223763427-51d2eff3-5301-47c0-aaeb-a7f6d1ac777a.png">
+</p>
+
+We're going to check with pinging:
+
+<p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223763132-52c39569-fa8c-4f65-bbd2-ed1c9cca94dd.png">
 </p>
 
@@ -166,10 +182,15 @@ As we can see from the machine **200.4.4.2** we canno't send packets to the netw
 
 No let's try with the second machine.
 
-Here's the ip address of the second machine in the network **200.4.4.0** : &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; We're going to check with pinging:
+Here's the ip address of the second machine in the network **200.4.4.0** :
 
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223763580-a1ee74f5-7107-4cd8-9db6-3ee3b43b65e2.png">
+</p>
+
+We're going to check with pinging:
+
+<p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223763020-6a246cd0-6189-46f6-8abe-40d0966200c7.png">
 </p>
 
@@ -183,10 +204,15 @@ In this question we're going to use extended ACL because we specified the protoc
   <img src="https://user-images.githubusercontent.com/73228919/223765876-898aa1f1-32de-450d-91d9-09506ee8d386.png">
 </p>
 
-Here's the ip address of the machine **200.4.2.3** in the network **200.4.2.0** : &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; We're going to check with pinging:
+Here's the ip address of the machine **200.4.2.3** in the network **200.4.2.0** :
 
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223766700-d9104457-201a-4ed5-9b79-9fc9ca2f4a75.png">
+</p>
+
+We're going to check with pinging:
+
+<p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223766812-66b0080a-d09b-4049-8314-eb6137417f5f.png">
 </p>
 
@@ -194,10 +220,15 @@ As we can see we can ping from the machine **200.4.2.3** the network **200.4.1.0
 
 But in the same network from the machine **200.4.2.2**
 
-Here's the ip address of the machine **200.4.2.2** in the network **200.4.2.0** : &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; We're going to check with pinging:
+Here's the ip address of the machine **200.4.2.2** in the network **200.4.2.0** :
 
 <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223767678-6c58770c-a91a-4596-a925-7fa330e7ecd7.png">
+</p>
+
+We're going to check with pinging:
+
+<p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/73228919/223767785-c2a884d5-9c63-4791-8a14-07ecdb4fa8f6.png">
 </p>
 
